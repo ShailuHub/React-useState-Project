@@ -1,0 +1,20 @@
+.user-detail-container {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: black;
+  transition: transform 0.3s ease-in;
+}
+
+.user-detail-container:hover {
+  transform: scale(1.03);
+}
+
+.user-detail-container p {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
